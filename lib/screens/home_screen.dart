@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
                     shape: const StadiumBorder(),
                     tileColor: Colors.blue,
                     onTap: () => context.pushRoute(
-                      const SliverPersistantHeaderRoute(),
+                      const SliverListWithGridRoute(),
                     ),
                   ),
                   const SizedBox(height: 10),

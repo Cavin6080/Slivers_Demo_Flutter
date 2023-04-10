@@ -20,6 +20,10 @@ class AppRoutes extends $AppRoutes {
       path: '/sliver-list-example',
     ),
     AutoRoute(
+      page: SliverListWithGridRoute.page,
+      path: '/sliver-list-with-grid-example',
+    ),
+    AutoRoute(
       page: SliverGridRoute.page,
       path: '/sliver-grid-example',
     ),
